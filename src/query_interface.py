@@ -127,7 +127,7 @@ from .utils import setup_logger
 import os
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyA9OVyV8OjVOb8PXCeg02Obd4IFIjIzIEQ")
+genai.configure(api_key="YOUR_API_KEY")
 
 
 
