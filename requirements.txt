@@ -1,0 +1,9 @@
+numpy
+pandas
+beautifulsoup4
+lxml
+sentence-transformers
+faiss-cpu; sys_platform == 'linux' or sys_platform == 'darwin'  # optional, else numpy fallback
+faiss-cpu-win; sys_platform == 'win32'                          # or pin a wheel if needed
+transformers
+torch

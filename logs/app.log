@@ -1,0 +1,159 @@
+2025-09-01 14:59:19,169 - WARNING - RAG - No chunks created from 1318605_0001104659-25-042659.json
+2025-09-01 14:59:19,170 - INFO - Main - Processed total chunks: 0
+2025-09-01 14:59:19,447 - INFO - RAG - Saved system to D:\Data Science\Technical Projects\clean-fin-rag\models\rag_system.pkl
+2025-09-01 15:02:38,179 - WARNING - RAG - No chunks created from 1318605_0001104659-25-042659.json
+2025-09-01 15:02:38,180 - INFO - Main - Processed total chunks: 0
+2025-09-01 15:08:48,665 - INFO - RAG - Loaded 58 pre-chunked chunks from 1318605_0001104659-25-042659.json
+2025-09-01 15:08:48,666 - INFO - Main - Processed total chunks: 58
+2025-09-01 15:10:49,926 - WARNING - RAG - No FAISS index file found; search will be empty until you reprocess this session.
+2025-09-01 15:10:49,926 - INFO - Query - Loading HF model: google/flan-t5-base
+2025-09-01 15:10:50,661 - WARNING - Query - LLM load failed: Could not load model google/flan-t5-base with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.t5.modeling_t5.T5ForConditionalGeneration'>). See the original errors:
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "D:\Data Science\Technical Projects\finance-rag\fin-env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "D:\Data Science\Technical Projects\finance-rag\fin-env\lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "D:\Data Science\Technical Projects\finance-rag\fin-env\lib\site-packages\transformers\modeling_utils.py", line 3994, in from_pretrained
+    with safe_open(resolved_archive_file, framework="pt") as f:
+OSError: The paging file is too small for this operation to complete. (os error 1455)
+
+while loading with T5ForConditionalGeneration, an error is thrown:
+Traceback (most recent call last):
+  File "D:\Data Science\Technical Projects\finance-rag\fin-env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "D:\Data Science\Technical Projects\finance-rag\fin-env\lib\site-packages\transformers\modeling_utils.py", line 3994, in from_pretrained
+    with safe_open(resolved_archive_file, framework="pt") as f:
+OSError: The paging file is too small for this operation to complete. (os error 1455)
+
+
+
+2025-09-01 15:13:07,958 - WARNING - RAG - No FAISS index file found; search will be empty until you reprocess this session.
+2025-09-01 15:13:07,974 - INFO - Query - Loading HF model: google/flan-t5-base
+2025-09-01 15:14:21,384 - WARNING - RAG - No FAISS index file found; search will be empty until you reprocess this session.
+2025-09-01 15:14:21,388 - INFO - Query - Loading HF model: google/flan-t5-base
+2025-09-01 15:33:07,292 - INFO - RAG - Loaded 58 pre-chunked chunks from 1318605_0001104659-25-042659.json
+2025-09-01 15:33:07,292 - INFO - Main - Processed total chunks: 58
+2025-09-01 15:33:07,415 - INFO - RAG - Saved system to D:\Data Science\Technical Projects\clean-fin-rag\models\rag_system.pkl
+2025-09-01 15:33:27,549 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 15:33:27,549 - INFO - Query - Loading HF model: google/flan-t5-base
+2025-09-01 15:34:56,817 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 15:34:56,821 - INFO - Query - Loading HF model: google/flan-t5-base
+2025-09-01 15:34:57,447 - WARNING - Query - LLM load failed: Could not load model google/flan-t5-base with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.t5.modeling_t5.T5ForConditionalGeneration'>). See the original errors:
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "D:\Data Science\Technical Projects\finance-rag\fin-env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "D:\Data Science\Technical Projects\finance-rag\fin-env\lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "D:\Data Science\Technical Projects\finance-rag\fin-env\lib\site-packages\transformers\modeling_utils.py", line 3994, in from_pretrained
+    with safe_open(resolved_archive_file, framework="pt") as f:
+OSError: The paging file is too small for this operation to complete. (os error 1455)
+
+while loading with T5ForConditionalGeneration, an error is thrown:
+Traceback (most recent call last):
+  File "D:\Data Science\Technical Projects\finance-rag\fin-env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "D:\Data Science\Technical Projects\finance-rag\fin-env\lib\site-packages\transformers\modeling_utils.py", line 3994, in from_pretrained
+    with safe_open(resolved_archive_file, framework="pt") as f:
+OSError: The paging file is too small for this operation to complete. (os error 1455)
+
+
+
+2025-09-01 15:36:44,891 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 15:36:44,891 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 17:01:22,183 - INFO - RAG - Loaded 58 pre-chunked chunks from 1318605_0001104659-25-042659.json
+2025-09-01 17:01:22,183 - INFO - Main - Processed total chunks: 58
+2025-09-01 17:01:22,369 - INFO - RAG - Saved system to D:\Data Science\Technical Projects\clean-fin-rag\models\rag_system.pkl
+2025-09-01 17:11:54,209 - INFO - RAG - Loaded 58 pre-chunked chunks from 1318605_0001104659-25-042659.json
+2025-09-01 17:11:54,210 - INFO - Main - Processed total chunks: 58
+2025-09-01 17:11:54,211 - INFO - RAG - Saved system to D:\Data Science\Technical Projects\clean-fin-rag\models\rag_system.pkl
+2025-09-01 17:18:44,426 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 17:18:44,426 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 18:04:43,648 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 18:04:43,648 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 18:05:07,390 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 18:05:07,391 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 18:06:03,910 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 18:06:03,910 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 18:10:14,401 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 18:10:14,402 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 18:12:01,384 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 18:12:01,384 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 18:24:30,635 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 18:24:30,635 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 19:50:39,927 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 19:50:39,927 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 19:53:50,214 - INFO - RAG - Loaded 58 pre-chunked chunks from 1318605_0001104659-25-042659.json
+2025-09-01 19:53:50,214 - INFO - Main - Processed total chunks: 58
+2025-09-01 19:53:50,229 - INFO - RAG - Saved system to D:\Data Science\Technical Projects\clean-fin-rag\models\rag_system.pkl
+2025-09-01 19:54:59,677 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 19:54:59,677 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 19:59:02,719 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 19:59:02,719 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 19:59:35,448 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 19:59:35,448 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 20:01:39,145 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 20:01:39,145 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 20:03:12,855 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 20:03:12,855 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 20:07:24,130 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 20:07:24,130 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:29:57,265 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:29:57,265 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:30:59,302 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:30:59,303 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:31:21,814 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:31:21,814 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:32:00,216 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:32:00,217 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:33:03,146 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:33:03,147 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:34:57,941 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:34:57,942 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:35:49,381 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:35:49,381 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:36:17,268 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:36:17,268 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:36:39,965 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:36:39,966 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:38:33,818 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:38:33,818 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:38:58,499 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:38:58,500 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:40:06,375 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:40:06,375 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:40:51,070 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:40:51,070 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 22:56:26,904 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 22:56:26,905 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:04:43,713 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:04:43,714 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:07:03,031 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:07:03,032 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:08:40,574 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:08:40,575 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:08:44,080 - WARNING - Query - LLM failed: 400 * GenerateTextRequest.model: unexpected model name format
+
+2025-09-01 23:47:30,080 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:47:30,081 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:47:53,415 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:47:53,415 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:47:55,704 - WARNING - Query - LLM failed: 400 * GenerateTextRequest.model: unexpected model name format
+
+2025-09-01 23:49:10,059 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:49:10,059 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:49:26,099 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:49:26,100 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:49:44,985 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:49:44,985 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:49:48,754 - WARNING - Query - LLM failed: 400 * GenerateTextRequest.model: unexpected model name format
+
+2025-09-01 23:52:53,097 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:52:53,098 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:53:09,493 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:53:09,493 - INFO - Query - Loading HF model: google/flan-t5-small
+2025-09-01 23:53:24,863 - INFO - RAG - Loaded FAISS index and 58 chunks
+2025-09-01 23:53:24,864 - INFO - Query - Loading HF model: google/flan-t5-small
