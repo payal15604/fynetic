@@ -24,7 +24,7 @@ That’s how **Fynetic** came to life — built to deliver clear, accurate answe
 
 ## How It Works
 
-![How It Works](images/image.png)
+![How It Works](image.png)
 
 ### Step 1: Fetch and Chunk
 
@@ -112,4 +112,5 @@ You'll get both the answer and the relevant filing sections returned to you.
 - **Larger LLMs** → Support GPT-4 / Gemini-Pro for better financial insights
 - **Keyword-Aware Retrieval** → Prioritize domain-specific terminology in vector search
 - **Multi-Filing Contexts** → Analyze multiple companies for competitive benchmarking
+
 
